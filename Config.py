@@ -1,3 +1,4 @@
+import os
 # Fillout The variables in Config.py further queries @riz4d 0n telegram
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN" , "6776006547:AAFPvW1Re_EyP5VI670FLDF-U_D24oRhIZI")
