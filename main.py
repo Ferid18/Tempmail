@@ -12,8 +12,8 @@ buttons=InlineKeyboardMarkup(
                              [
                              [
             InlineKeyboardButton('Generate', callback_data='generate'),
-            InlineKeyboardButton('Refresh', callback_data='refresh'),
-            InlineKeyboardButton('Chose', callback_data='chose')
+            InlineKeyboardButton('Rafresh', callback_data='rafresh'),
+            InlineKeyboardButton('Close', callback_data='close')
                    ] 
                              ])
 
@@ -46,7 +46,7 @@ async def mailbox(client,message):
        await message.edit_message_text('__**Your Temporary E-mail: **__`'+str(email)+'`',
                                        reply_markup=buttons)
        print(email)
-    elif response=='refresh':
+    elif response=='rafresh':
         print(email)
         try:
             if email=='':
