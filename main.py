@@ -11,9 +11,9 @@ import os
 buttons=InlineKeyboardMarkup(
                              [
                              [
-            InlineKeyboardButton('Yenimail', callback_data='yenimail'),
-            InlineKeyboardButton('Tezelemek ', callback_data='tezelemek'),
-            InlineKeyboardButton('Qapat', callback_data='qapat')
+            InlineKeyboardButton('Generate', callback_data='generate'),
+            InlineKeyboardButton('Refresh', callback_data='refresh'),
+            InlineKeyboardButton('Chose', callback_data='chose')
                    ] 
                              ])
 
